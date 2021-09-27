@@ -1,0 +1,14 @@
+/* a:hover {
+    color: rgb(242, 146, 21);
+} */
+
+h1:active {
+    color: aqua;
+    background-color: azure;
+    width: 20%;
+}
+
+a:visited {
+    color: rgb(255, 174, 0);
+    text-decoration: none;
+}
