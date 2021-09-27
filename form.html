@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- form have two main attribute 1.action 2.method //what are the difference form input form, upwork,pixabay -->
+    <form action="#" method="">
+        <label for="name">User Name:</label>
+        <input type="text" id="name" name="username" value="" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" pattern="sag888" value="" required placeholder="Please enter Password">
+        <br>
+        <!-- to select anyone of the option: radio button -->
+        <input type="radio" name="gender" value="Male">M
+        <input type="radio" name="gender" value="Female">F
+        <br>
+        <button>Submit</button>
+        <input type="button" value="login">
+        <br>
+
+        <!-- to select multiple options: checkbox-->
+        <input type="checkbox" name="technology" value="java" checked/>Core Java
+        <!-- by using check box it is always checked -->
+        <input type="checkbox" name="technology" value="java Script" />Java Script
+        <input type="checkbox" name="technology" value="Springs" />Springs
+        <br>
+        <!-- email -->
+        <input type="email" type="email" name="email" placeholder="Please enter your email">
+        <br>
+
+        <!-- files -->
+        <input type="file">
+        </br>
+        <br>
+        <!-- Text area -->
+        Address:
+        <textarea name="" id="" cols="30" rows="5">
+       </textarea>
+        </br>
+        <!-- select tag -->
+        <select name="" id="">
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">BackEnd</option>
+            <option value="DataBase">DataBase</option>
+        </select>
+        <!-- task data list is also one of the tag  -->
+
+
+        <!-- with form -->
+        <input type="submit" value="Register">
+        <button type="submit">Submit</button>
+
+        <!-- reset -->
+        <input type="reset">
+        <br>
+        <!-- color and date -->
+        <input type="color">
+        <br>
+        <input type="date">
+        <br>
+        <input type="range">
+        </br>
+    </form>
+
+
+</body>
+
+</html>

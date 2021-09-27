@@ -1,0 +1,25 @@
+/* universal selector */
+
+* {
+    color: aquamarine;
+}
+
+.test {
+    color: rgb(232, 141, 23);
+}
+
+.test1 {
+    color: black;
+}
+
+.test2 {
+    color: blue;
+}
+
+#demo {
+    color: brown;
+}
+
+#demo1 {
+    color: teal;
+}

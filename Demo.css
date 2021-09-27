@@ -1,0 +1,27 @@
+/* Syntax
+selector{
+    property:value;
+}
+how to add css
+1.inline -style attribute
+2.internal style sheet-<Style> tag
+3.External-<Link>tag
+
+selectors
+element selector(3rd preference)
+universal selector
+attiribute selector(task)
+class selector(.)(Second preference)
+id selector(#)(First preference)
+Pseudo selector
+
+background colour
+display properties
+fonts color, font family
+
+html
+*/
+
+p {
+    color: rgb(33, 128, 211);
+}
